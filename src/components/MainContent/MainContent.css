@@ -1,0 +1,112 @@
+.main{
+   display: flex;
+   justify-content: center;
+   
+   
+}
+
+.main__content{
+   display: flex;
+   /* justify-content: center; */
+   flex-direction: column;
+   align-items: center;
+   width: 700px;
+   height: 80vh;
+ 
+}
+
+.main__content--input{
+   margin-bottom: 40px;
+   width: 500px;
+   padding: 40px;
+   outline: none;
+   border: none;
+   border-radius: 10px;
+   font-style: italic;
+}
+
+.main__content--input:focus{
+   border: 1px solid rgb(255, 178, 178);
+}
+
+
+
+.main__content--data-item{
+   padding-bottom: 5px;
+   padding-right: 15px;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   width: 600px;
+   overflow: hidden;
+   height: auto;
+   border: 1px solid rgb(124, 232, 254);
+   border-radius: 10px;
+   position: relative;
+   box-shadow: 5px 2px 10px rgb(156, 156, 156);
+   margin-bottom: 26px;
+}
+
+.text{
+   font-family:Arial, Helvetica, sans-serif;
+   padding-left: 40px;
+   /* max-width: 100px; */
+   text-align:start;
+   padding-top: 15px;
+}
+
+.default{
+   text-decoration: none;
+}
+
+.isDone{
+   text-decoration: line-through;
+}
+
+
+
+
+/* Кнопки */
+
+.btns{
+  padding-top: 15px;
+   display: flex;
+   gap: 20px;
+
+}
+
+.btn{
+   font-size: 15px;
+   font-style: italic;
+   cursor: pointer;
+   outline: none;
+   border: none;
+   padding: 3px 9px;
+   border-radius: 5px;
+   border: 1px solid rgb(201, 201, 201);
+   
+}
+
+.edit, .done, .cancel{
+   transition: all 1s;
+}
+
+.edit:hover{
+   background-color: rgb(183, 227, 227);
+   color: black;
+}
+
+.cancel:hover{
+   background-color: red;
+   color: white;
+   font-weight: 600;
+}
+
+.done:hover{
+   background-color: green;
+   color: white;
+   font-weight: bold;
+}
+
+/* Кнопки */
