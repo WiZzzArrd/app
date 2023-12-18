@@ -1,1 +1,1 @@
-# ThIs iS My FiRsT simple PrOjEct - toDo-list ^_^
+# TODO list
